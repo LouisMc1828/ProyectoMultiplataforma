@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carry_inventory_APP.MainPage">
+
+    <StackLayout>
+        <Button Text="Ver inventario " x:Name="btnConsulta" Clicked="btnConsulta_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

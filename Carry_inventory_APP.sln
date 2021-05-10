@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carry_inventory_APP.Android", "Carry_inventory_APP.Android\Carry_inventory_APP.Android.csproj", "{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carry_inventory_APP", "Carry_inventory_APP\Carry_inventory_APP.csproj", "{2C076129-983B-4329-8848-539DED563A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioAPI", "InventarioAPI\InventarioAPI.csproj", "{16780B93-FE94-482A-B11B-CEC4C1EB39B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED47B1A-A4F5-4171-8457-E5B36BA600D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2C076129-983B-4329-8848-539DED563A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C076129-983B-4329-8848-539DED563A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C076129-983B-4329-8848-539DED563A8A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C076129-983B-4329-8848-539DED563A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C076129-983B-4329-8848-539DED563A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C076129-983B-4329-8848-539DED563A8A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{16780B93-FE94-482A-B11B-CEC4C1EB39B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16780B93-FE94-482A-B11B-CEC4C1EB39B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16780B93-FE94-482A-B11B-CEC4C1EB39B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16780B93-FE94-482A-B11B-CEC4C1EB39B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED41CB35-3CD8-4DA7-8ADA-85954A54442D}
+	EndGlobalSection
+EndGlobal
