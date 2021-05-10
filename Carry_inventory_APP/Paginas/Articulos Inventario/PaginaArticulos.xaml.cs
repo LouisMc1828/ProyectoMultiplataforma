@@ -24,5 +24,10 @@ namespace Carry_inventory_APP.Paginas.Articulos_Inventario
 			List<RepositorioAPIInventario> resultadoRepositorio = await restServicios.ConsultarInventarioAsyc(constantes.APIInventarioURL);
 			vistaColeccion.ItemsSource = resultadoRepositorio;
 		}
+
+        private async void btnIIr_Clicked(object sender, EventArgs e)
+        {
+			await Navigation.PushAsync(new Paginas.AñadirAInventario.AñadirAInventario());
+		}
     }
 }

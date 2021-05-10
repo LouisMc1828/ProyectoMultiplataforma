@@ -4,7 +4,7 @@
              x:Class="Carry_inventory_APP.MainPage">
 
     <StackLayout>
-        <Button Text="Ver inventario " x:Name="btnConsulta" Clicked="btnConsulta_Clicked"/>
+        <Button Text="Ir a inventario " x:Name="btnConsulta" Clicked="btnConsulta_Clicked"/>
     </StackLayout>
 
 </ContentPage>

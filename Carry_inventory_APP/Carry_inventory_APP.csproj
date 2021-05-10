@@ -20,5 +20,8 @@
     <EmbeddedResource Update="Paginas\Articulos Inventario\PaginaArticulos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Paginas\AñadirAInventario\AñadirAInventario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

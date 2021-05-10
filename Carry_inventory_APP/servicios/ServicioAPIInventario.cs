@@ -38,6 +38,31 @@ namespace Carry_inventory_APP.servicios
 
             return repositorios;
     }
+
+        public async Task GuardarEnInventario(RepositorioAPIInventario Articulos, string ruta, bool isNewItem = false)
+        {
+            Uri RutaFormateada = new Uri(string.Format(ruta, string.Empty));
+
+            string json = JsonConvert.SerializeObject(Articulos, Formatting.Indented);
+            StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+            try
+            {
+                HttpResponseMessage responseMessage = null;
+                if (isNewItem)
+                {
+                    responseMessage = await _cliente.PostAsync(RutaFormateada, content);
+                }
+
+                if (responseMessage.IsSuccessStatusCode)
+                {
+                    Debug.WriteLine(@"\tArticulo agregado correctamente.");
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 
    

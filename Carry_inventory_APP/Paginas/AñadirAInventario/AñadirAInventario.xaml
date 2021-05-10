@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carry_inventory_APP.Paginas.AñadirAInventario.AñadirAInventario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="DodgerBlue">
+                <Label Text="Agregar articulo al inventario" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+                       FontSize="Title"
+                       TextColor="White"/>
+            </Frame>
+
+            <Entry Placeholder="Nombre del producto" x:Name="EntName"/>
+            <Entry Placeholder="Cantidad" x:Name="EntCantidad"/>
+            <Entry Placeholder="Precio" x:Name="EntPrecio"/>
+            <DatePicker x:Name="FechaCompra"/>
+            <DatePicker x:Name="FechaExpiraccion"/>
+
+            <Button Text="Añadir" x:Name="BtnAdd" Clicked="BtnAdd_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
